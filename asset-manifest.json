@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tutorville/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/tutorville/static/js/main.bc3d9284.chunk.js",
+    "main.js.map": "/tutorville/static/js/main.bc3d9284.chunk.js.map",
+    "runtime-main.js": "/tutorville/static/js/runtime-main.0d5d87be.js",
+    "runtime-main.js.map": "/tutorville/static/js/runtime-main.0d5d87be.js.map",
+    "static/js/2.a518540c.chunk.js": "/tutorville/static/js/2.a518540c.chunk.js",
+    "static/js/2.a518540c.chunk.js.map": "/tutorville/static/js/2.a518540c.chunk.js.map",
+    "static/js/3.1913f9e7.chunk.js": "/tutorville/static/js/3.1913f9e7.chunk.js",
+    "static/js/3.1913f9e7.chunk.js.map": "/tutorville/static/js/3.1913f9e7.chunk.js.map",
+    "index.html": "/tutorville/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/tutorville/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.a518540c.chunk.js.LICENSE.txt": "/tutorville/static/js/2.a518540c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d5d87be.js",
+    "static/js/2.a518540c.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.bc3d9284.chunk.js"
+  ]
+}
