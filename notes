@@ -1,0 +1,106 @@
+npx create-react-app my-app
+cd tutorville
+npm install @material-ui/core
+
+Collected image from pexels.com through 
+Open image in new tab:
+
+https://images.pexels.com/photos/3987020/pexels-photo-3987020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+
+https://images.pexels.com/photos/4144224/pexels-photo-4144224.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+
+https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+
+https://images.pexels.com/photos/4443121/pexels-photo-4443121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+
+https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+
+
+//import logo from './logo.svg';
+
+
+import './App.css';
+import { Grid , Button }  from '@material-ui/core';
+
+
+function App() {
+  return (
+    <div className="App">
+     
+     < Grid container style = {{ minheight: '100vh'}}>
+     
+     <Grid item xs={12} sm={6}>
+       <img 
+         src="https://images.pexels.com/photos/4144224/pexels-photo-4144224.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+         style ={{width: "100%",height: "100%",objectFit: "cover" }}
+         alt="brand"
+       />
+     </Grid>
+
+     <Grid container 
+     item 
+     xs={12} 
+     sm={6} 
+     alignItems="center" 
+     direction="column"
+     justify="space-between" 
+     style={{padding:10}}>
+     <div />
+  
+     
+     <div style={{ 
+       display:"flex",
+       flexDirection:"column",
+       maxWidth: 400,
+       minWidth:300,
+       }}>
+
+     <Grid container justify="center">
+      <img
+        src="https://logos-world.net/wp-content/uploads/2020/09/Linux-Logo-700x394.png"
+        width={200}
+        alt="logo"
+      />  
+     </Grid>
+        <Button color ="secondary" variant="contained">Student</Button>
+        <div style={{height:20}} />
+        <Button color ="secondary" variant="contained">Teacher</Button>
+     </div>
+     <div />
+     </Grid>
+     </Grid>
+    </div>
+  );
+};
+
+export default App;
+
+
+
+
+
+ https://ticklu1990.github.io/tutorville
+
+//https://www.freepik.com/
+//https://image.freepik.com/free-vector/online-tutorials-concept_52683-37481.jpg
+
+
+1. Application should consists of 2 users
+     a. Teacher
+     b. Student
+
+2.In teacher dashboard, teacher can Add task
+3.In student dashboard, student can see all the task which are created by Teacher and for the new task 2 buttons should  display(Start and Reject)
+4.If Student clicks on Start — the 2 buttons will replace to one button i.e Completed
+5.If Student reject the task the task should not visible in student dashboard
+6.If the task is inprogress, Teacher cannot Edit or Delete
+7.Teacher can filter the tasks by New, Inprogress,Rejected, Deleted
+  Teacher can search the tasks.
+8.Whenever teacher clicks on delete or edit button, application should prompt for confirmation. 
+
+/* falls through */
+
+
+npm install netlify-cli -g
+
+
