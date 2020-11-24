@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tutorville/static/css/main.1aad4dcf.chunk.css",
-    "main.js": "/tutorville/static/js/main.4241dbb1.chunk.js",
-    "main.js.map": "/tutorville/static/js/main.4241dbb1.chunk.js.map",
+    "main.js": "/tutorville/static/js/main.47567270.chunk.js",
+    "main.js.map": "/tutorville/static/js/main.47567270.chunk.js.map",
     "runtime-main.js": "/tutorville/static/js/runtime-main.73e2dc2b.js",
     "runtime-main.js.map": "/tutorville/static/js/runtime-main.73e2dc2b.js.map",
     "static/css/2.1a02f21c.chunk.css": "/tutorville/static/css/2.1a02f21c.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.59b532d0.chunk.js",
     "static/css/main.1aad4dcf.chunk.css",
-    "static/js/main.4241dbb1.chunk.js"
+    "static/js/main.47567270.chunk.js"
   ]
 }
