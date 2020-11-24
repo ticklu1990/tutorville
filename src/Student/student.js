@@ -43,7 +43,7 @@ function student() {
       
        
      <img
-        src="https://as2.ftcdn.net/jpg/02/83/63/79/500_F_283637944_SAza7JP4UOpm7fexI1A3XVAIVziIkQ43.jpg"
+        src="https://image.freepik.com/free-vector/confirmation-completed-notices-message-notifications-list-computer-screen_212005-398.jpg"
         width={600}
         alt="logo"
       />   

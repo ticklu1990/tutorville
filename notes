@@ -104,3 +104,8 @@ export default App;
 npm install netlify-cli -g
 
 
+//add exiting to github and publish.
+git add .
+git commit -m ""
+git push
+npm run deploy
