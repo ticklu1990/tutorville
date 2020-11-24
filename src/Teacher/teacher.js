@@ -40,10 +40,7 @@ function teacher() {
       
       
      <Grid container justify="center">
-       <Button className="ml-2" variant="success">NEW</Button>
-       <Button className="ml-2" variant="info">INPROGRESS</Button>
-       <Button className="ml-2" variant="light">REJECTED</Button>  
-       <Button className="ml-2" variant="secondary">DELETED</Button>  
+         
        
      <img
         src="https://image.freepik.com/free-vector/checklist-businessman-person-holding-pencil-task-list-clipboard-complete-questionnaire-exam-inspection-concept_53562-10717.jpg"

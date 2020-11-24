@@ -1,36 +1,65 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 
+import TaskList from '../redux/TaskList';
+import {Button,Alert,Badge} from 'react-bootstrap'
+import { useHistory } from "react-router-dom";
+
 function student() {
+
+    let history = new useHistory();
+
+    let logout = () => {
+    history.push('/tutorville');
+    }
     return (
         <div>
-          <h1>Student Dashboard</h1>
-          
-          <Grid container style = {{ minheight: '100vh'}}>
+             <Alert variant="info">Student Dashboard
+             <Button onClick={logout}className="ml-2" variant="danger">Logout</Button></Alert>
+            
+            
+             <div style={{height:60}} />
+             <Grid container style = {{ minheight: '100vh'}}>
+        
        
      <Grid item xs={12} sm={6}>
-      
+     
+       <h6><Badge pill variant="warning">New Tasks</Badge></h6> 
+       <div style={{height:10}} />
+     
+       <div style={{height:10}} />
+      <TaskList />
+     
      </Grid>
-
+      
      <Grid container item xs={12} sm={6} justify="center" style={{padding:40}}>
      
      <div />
-
+        
      <div> 
       
       
      <Grid container justify="center">
-     
+      
+       
+     <img
+        src="https://as2.ftcdn.net/jpg/02/83/63/79/500_F_283637944_SAza7JP4UOpm7fexI1A3XVAIVziIkQ43.jpg"
+        width={600}
+        alt="logo"
+      />   
       
      </Grid>
      
+    
+     </div>
      
-     </div>
-
+     
      </Grid>
+      
      </Grid>
-            
-     </div>
+      
+    </div>
+        
     )
 }
 
