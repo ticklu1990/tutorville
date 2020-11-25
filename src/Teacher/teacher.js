@@ -49,17 +49,17 @@ function teacher() {
 
    <Tabs defaultActiveKey="new" id="uncontrolled-tab-example">
   <Tab eventKey="new" title="New">
-
+     <TaskList />
   </Tab>
   <Tab eventKey="inprogress" title="Inprogress">
   
   </Tab>
   <Tab eventKey="rejected" title="Rejected">
-    
+     <TaskList />
   </Tab>
 
   <Tab eventKey="deleted" title="Deleted">
-    
+     <TaskList />
   </Tab>
 
 
